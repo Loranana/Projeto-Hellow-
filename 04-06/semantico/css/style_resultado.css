@@ -1,0 +1,40 @@
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.result{
+    background-color: darkcyan;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    box-shadow: 0 0 10px lightyellow;
+    width: 300px;
+}
+
+button{
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    height: 33px;
+}
+
+button:hover{
+    background-color: goldenrod;
+    transition-duration: 0.3s;
+    box-shadow: 0 12px 16px 0 darkgoldenrod;
+}
+
+hr{
+ border: 2px solid lightyellow;
+ border-radius: 20px;
+}
